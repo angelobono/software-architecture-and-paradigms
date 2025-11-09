@@ -158,16 +158,6 @@ bus.emit('orderCreated', {id: 1});
 
 ---
 
-## 🎯 Conclusion / Fazit
-
-* **Architecture styles** define the system's macro structure.
-* **Communication and structure paradigms** shape component behavior.
-* **Hybrid and progressive** approaches provide flexibility for real-world systems.
-
-📌 *These paradigms can be combined — they are not mutually exclusive.*
-
----
-
 # Architecture Plan - Schema Definition
 
 ```yaml
@@ -364,4 +354,14 @@ This schema could be used to generate architecture documentation automatically o
 system structure effectively.
 
 AI tools could parse this schema to create software plans, diagrams or reports.
+
+---
+
+## 🎯 Conclusion / Fazit
+
+* **Architecture styles** define the system's macro structure.
+* **Communication and structure paradigms** shape component behavior.
+* **Hybrid and progressive** approaches provide flexibility for real-world systems.
+
+📌 *These paradigms can be combined — they are not mutually exclusive.*
 
