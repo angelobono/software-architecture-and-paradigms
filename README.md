@@ -341,6 +341,8 @@ graph TD
     end
 ````
 
+---
+
 ### ✅ How It Works
 
 1. Each **module** is a node showing its **name and framework/version**.
