@@ -5,9 +5,9 @@
 
 ---
 
-DE: Dieses Dokument zeigt, dass Architekturparadigmen nur im Zusammenspiel ihren vollen Wert entfalten. Sie bilden gemeinsam die Grundlage moderner, flexibler Softwaresysteme.
+EN: This document illustrates key software architecture concepts in their proper context. Small examples illustrate the differences between paradigms and how they interact when combined.
 
-EN: This document illustrates that architectural paradigms are not meant to stand alone. Their real power emerges when combined — forming the foundation of modern, adaptable software systems.
+DE: Dieses Dokument zeigt die wichtigsten Software-Architekturbegriffe in ihrem korrekten Kontext beschreibt. Mit kleinen Beispielen wird aufgezeigt, wie sich die einzelnen Paradigmen unterscheiden und wie sie in Kombination wirken.
 
 ---
 
@@ -243,6 +243,11 @@ required: [ modules ]
 
 ## 2️⃣ Example Module Definition
 
+This schema could be used to generate architecture documentation automatically or visualize the
+system structure effectively.
+
+AI tools could parse this schema to create software plans, diagrams or reports.
+
 ```yaml
 modules:
     -   name: BlogModule
@@ -351,11 +356,6 @@ graph TD
 4. You can **extend** it with behaviors:
     - Add labels like `Modular`, `Event-Driven`, `Reactive` next to modules or components.
     - Use color coding for behavior types.
-
-This schema could be used to generate architecture documentation automatically or visualize the
-system structure effectively.
-
-AI tools could parse this schema to create software plans, diagrams or reports.
 
 ---
 
