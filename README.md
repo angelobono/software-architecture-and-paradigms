@@ -1,7 +1,31 @@
-# Software Architecture Paradigms / Software-Architektur-Paradigmen
+# 📘 Software Architecture Paradigms / Software-Architektur-Paradigmen
 
-> 📘 This page is bilingual (EN / DE) and can be used in MkDocs with collapsible sections, Mermaid
+> 🌍 This page is bilingual (EN / DE) and can be used in MkDocs with collapsible sections, Mermaid
 > diagrams, and navigation support.
+
+---
+
+DE: Dieses Dokument zeigt, dass Architekturparadigmen nur im Zusammenspiel ihren vollen Wert entfalten. Sie bilden gemeinsam die Grundlage moderner, flexibler Softwaresysteme.
+
+EN: This document illustrates that architectural paradigms are not meant to stand alone. Their real power emerges when combined — forming the foundation of modern, adaptable software systems.
+
+---
+
+## 📊 Overview Table / Gesamtübersicht
+
+| Paradigm         | Architecture | Communication  | Structure | Strategy |
+| ---------------- | ------------ | -------------- | --------- | -------- |
+| Monolithic       | ✅           |                |           |          |
+| Modular          | ✅           |                | ✅        |          |
+| Microservices    | ✅           | 🟡 often Event |           |          |
+| Service-Oriented | ✅           | 🟡 sync        |           |          |
+| Serverless       | ✅           | ✅             |           |          |
+| Event-Driven     |              | ✅             |           |          |
+| Reactive         |              | ✅             |           |          |
+| Aspect-Oriented  |              |                | ✅        |          |
+| Hexagonal        |              |                | ✅        |          |
+| Progressive      |              | ✅             |           | ✅       |
+| Hybrid           | ✅           | ✅             | ✅        | ✅       |
 
 ---
 
@@ -55,8 +79,6 @@ How a system evolves or combines / Wie sich ein System entwickelt oder kombinier
 
 ---
 
-## 📊 Overview Table / Gesamtübersicht
-
 ```mermaid
 graph TD
     A[Monolithic] -->|✓| Arch
@@ -71,20 +93,6 @@ graph TD
     J[Progressive] -->|✓| Comm & Strategy
     K[Hybrid] -->|✓| All
 ```
-
-| Paradigm         | Architecture | Communication | Structure | Strategy |
-|------------------|--------------|---------------|-----------|----------|
-| Monolithic       | ✅            |               |           |          |
-| Modular          | ✅            |               | ✅         |          |
-| Microservices    | ✅            | (often Event) |           |          |
-| Service-Oriented | ✅            | (sync)        |           |          |
-| Serverless       | ✅            | ✅             |           |          |
-| Event-Driven     |              | ✅             |           |          |
-| Reactive         |              | ✅             |           |          |
-| Aspect-Oriented  |              |               | ✅         |          |
-| Hexagonal        |              |               | ✅         |          |
-| Progressive      |              | ✅             |           | ✅        |
-| Hybrid           | ✅            | ✅             | ✅         | ✅        |
 
 ---
 
@@ -160,7 +168,7 @@ bus.emit('orderCreated', {id: 1});
 
 ---
 
-# Architecture Schema Plan
+# Architecture Plan - Schema Definition
 
 ```yaml
 $schema: "https://json-schema.org/draft/2020-12/schema"
