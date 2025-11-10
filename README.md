@@ -7,7 +7,7 @@
 
 EN: This document illustrates key software architecture concepts in their proper context. Small examples illustrate the differences between paradigms and how they interact when combined.
 
-DE: Dieses Dokument zeigt die wichtigsten Software-Architekturbegriffe in ihrem korrekten Kontext beschreibt. Mit kleinen Beispielen wird aufgezeigt, wie sich die einzelnen Paradigmen unterscheiden und wie sie in Kombination wirken.
+DE: Dieses Dokument zeigt die wichtigsten Software-Architekturbegriffe in ihrem korrekten Kontext beschreiben. Mit kleinen Beispielen wird aufgezeigt, wie sich die einzelnen Paradigmen unterscheiden und wie sie in Kombination wirken.
 
 ---
 
